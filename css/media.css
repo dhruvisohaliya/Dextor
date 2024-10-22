@@ -1,0 +1,132 @@
+.toggle_icon , .mobaile_main_menu , .mobaile_submenu
+{
+ display: none;
+}
+@media screen and (max-width: 992px) {
+  .main_menu , .submenu{
+    display: none;
+}
+
+.toggle_icon
+{
+    display: block;
+    border-radius: 100%;
+    padding: 3px 9px;
+    background-color: black;
+    color: white;
+}
+.mobaile_main_menu
+{
+    display: block; 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 11111111111;
+    background-color: white;
+    width: 100%;
+    padding: 15px 40px;
+}
+.mobaile_main_menu li{
+  padding: 8px 0px;
+  
+}
+.mobaile_main_menu li i{
+  padding-right: 8px;
+}
+.mobaile_main_menu li a
+{
+    display: block;
+    padding: 8px;
+}
+    /* -------section 1---------- */
+    .stroke{
+        font-size: 48px;
+    }
+    .pro{
+        font-size: 18px;
+    }
+    .banner-image{
+        margin: 0px 0px 0px 0px;
+        transform: scale(1);
+      }
+      /* --------------section 2---------------- */
+      .stroke2{
+        font-size: 48px;
+      }
+      .heading {
+        margin-top: -90px;
+        font-family: var(--font-2);
+        font-size: 1.9rem;
+        font-weight: 700;
+        margin-left: 1%;
+    }
+    .img{
+      width:130px;
+      height: 130px;
+    }
+    .cont{
+      width: 100%;
+    }
+    /* -------------section 3---------------- */
+    .mar{
+      margin-top: 20px;
+    }
+    .heading1 {
+      margin-top: -60px;
+      font-family: var(--font-2);
+      font-size: 1.9rem;
+      font-weight: 700;
+      margin-left: 1%;
+  }
+  /* --------------section 5 portfolio2---------------------- */
+  .imagess {
+    padding-right: 0px;
+    margin-bottom: 10px;
+}
+
+.port {
+    margin-top: 100px;
+    padding-left: 12px;
+  
+}
+.tree{
+    padding-left: 12px;
+}
+.concept{
+  margin-bottom:50px;
+   color: #9b9b9b;
+   padding-right: 0px;
+}
+/* ----------------testimonials-------------------- */
+.dyas{
+   font-size: 14px;
+   margin-top: 20px;
+   font-weight: 400;
+}
+.testi {
+  background-color: #ddd;
+  padding-right: 50px;
+  margin-right: -10px;
+}
+.testimonial-img {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.testi1 {
+  background-color: #ddd;
+  padding-left: 50px;
+  margin-left: -10px;
+}
+.cont1{
+  margin-top: 0px;
+}
+.spacer3{
+  padding: 96px 32px 0px;
+}
+.spacer4{
+padding: 80px 32px 0px;
+}
+ }
+    
+    
+    
